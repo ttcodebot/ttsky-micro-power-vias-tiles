@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Power via test: standard stripes"      # Project title
+  title:        "Power via test: 1.6 um stripes"      # Project title
   author:       "Uri Shaked"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Repeat the sequence of colors and sounds to win the game" # One line description of what your project does
@@ -11,7 +11,7 @@ project:
   tiles: "micro"          # about 1/4 of a standard tile
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_pv_standard"
+  top_module:  "tt_um_pv_wide"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:

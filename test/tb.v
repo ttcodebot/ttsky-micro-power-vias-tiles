@@ -32,7 +32,7 @@ module tb ();
   wire [3:0] led = uo_out[3:0];
   wire speaker = uo_out[4];
 
-  tt_um_pv_standard user_project (
+  tt_um_pv_wide user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
