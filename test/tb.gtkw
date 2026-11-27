@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave save file for the micro tile Simon Says testbench (test/tb.v)
+[*]
+[dumpfile] "tb.vcd"
+[savefile] "tb.gtkw"
+[size] 1376 600
+[treeopen] tb.
+[treeopen] tb.user_project.
+[treeopen] tb.user_project.simon1.
+[sst_width] 297
+[signals_width] 230
+[sst_expanded] 1
+[sst_vpaned_height] 158
+@28
+tb.clk
+tb.rst_n
+@200
+-Inputs
+@22
+tb.btn[3:0]
+@200
+-Outputs
+@22
+tb.led[3:0]
+@28
+tb.speaker
+@200
+-Game state
+@22
+tb.user_project.simon1.state[2:0]
+tb.user_project.simon1.seq_counter[5:0]
+tb.user_project.simon1.level[5:0]
+tb.user_project.simon1.unit_timer[4:0]
+@28
+tb.user_project.simon1.color[1:0]
+@22
+tb.user_project.simon1.lfsr[7:0]
+@200
+-Sound
+@22
+tb.user_project.simon1.sound_gen_inst.counter[2:0]
+@28
+tb.user_project.simon1.sound_gen_inst.wave
+[pattern_trace] 1
+[pattern_trace] 0
