@@ -6,7 +6,7 @@
 `default_nettype none
 
 // Micro tile: clk, rst_n, ui_in and uo_out only (no uio, no ena)
-module tt_um_pv_standard (
+module tt_um_pv_pitch (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire       clk,      // clock
